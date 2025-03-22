@@ -1,0 +1,66 @@
+/* Placeorder.css */
+.place-order-container {
+  padding: 2rem 0;
+  max-width: 1200px;
+}
+
+.place-order-paper {
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.form-section, .order-summary {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.summary-row.total {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 2px solid #ddd;
+  border-bottom: none;
+  font-weight: 600;
+}
+
+.payment-button {
+  margin-top: 2rem !important;
+  padding: 0.75rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  transition: transform 0.2s ease-in-out !important;
+}
+
+.payment-button:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .place-order-paper {
+    padding: 1.5rem;
+  }
+  
+  .order-summary {
+    margin-top: 1.5rem;
+  }
+}
+.summary-value {
+  color: #333; /* Dark gray color to ensure visibility */
+}
+
+.summary-row Typography {
+  color: #333;
+}

@@ -1,0 +1,46 @@
+.contact-us {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-us h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contact-us form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-us label {
+    margin-bottom: 5px;
+  }
+  
+  .contact-us textarea,
+  .contact-us input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-us button {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(238, 130, 21);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .contact-us button:hover {
+    background-color: rgb(161, 86, 10);
+  }
+  
+  .contact-us p {
+    margin-top: 20px;
+    color: green;
+  }
+  
